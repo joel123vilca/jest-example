@@ -7,7 +7,7 @@ describe("comprobaremos que exite un elemento", () => {
     test('no contiene un platano',() => {
         expect(arrayFruits()).not.toContain('platano');
     });
-    test('comprobar el tamaño de una array', () =>{
+    test('comprobar el tamaño de una array', () => {
         expect(arrayFruits()).toHaveLength(6);
     });
 });
@@ -15,5 +15,8 @@ describe("comprobaremos que exite un elemento", () => {
 describe("comprobaremos que contiene colores", () => {
     test('tiene color green', () => {
         expect(arrayColors()).toContain('green');
+    });
+    test('comprobaremos que existe un color', () => {
+        expect(arrayColors()).toContain('blue');
     });
 });
