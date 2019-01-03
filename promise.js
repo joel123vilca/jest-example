@@ -5,4 +5,4 @@ export const getDataFromApi = (url) => {
         .then(({ data }) => {
             return data;
         });
-}
+};
