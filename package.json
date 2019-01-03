@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage":"jest --coverage",
-    "test:watch":"jest --watch"
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "test",
@@ -21,6 +21,7 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-preset-es2015": "^6.24.1"
   }
 }
